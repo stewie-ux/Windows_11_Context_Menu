@@ -34,22 +34,13 @@ context menu directly in Windows 11.
 
 3\.  Run these commands one at a time:
 
+```cmd
+reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /ve /f
+```
 
-
-&#x20;   ``` cmd
-
-&#x20;   reg add "HKCU\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\\InprocServer32" /ve /f
-
-&#x20;   ```
-
-
-
-&#x20;   ``` cmd
-
-&#x20;   reg add "HKCU\\Software\\Classes\\CLSID\\{51668040-5e31-4023-bbe3-149163bd80f1}\\InprocServer32" /ve /f
-
-&#x20;   ```
-
+```cmd
+reg add "HKCU\Software\Classes\CLSID\{51668040-5e31-4023-bbe3-149163bd80f1}\InprocServer32" /ve /f
+```
 
 
 4\.  Restart \*\*Windows Explorer\*\* from Task Manager, or restart your PC.
